@@ -3,9 +3,7 @@ package herokuapp;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -21,7 +19,6 @@ public class Hooks {
 	}
 	@After
 	public void afterTest(){
-		System.out.println("AfterTest");
 		driver.close();
 		driver.quit();
 	}

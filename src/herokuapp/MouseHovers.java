@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-@Ignore
+
 public class MouseHovers extends Hooks {
 	@Test
 	public void hoverMouseOnEachProfile() throws InterruptedException{

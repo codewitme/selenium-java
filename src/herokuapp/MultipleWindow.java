@@ -6,7 +6,7 @@ import java.util.Set;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
-@Ignore
+
 public class MultipleWindow extends Hooks{
 	@Test
 	public void handleMultipleWindows(){

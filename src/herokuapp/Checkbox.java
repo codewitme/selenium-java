@@ -6,7 +6,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-@Ignore
+
 public class Checkbox extends Hooks{
 	@Test
 	public void selectAllChecbox(){
