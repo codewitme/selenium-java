@@ -2,9 +2,10 @@ package herokuapp;
 
 import java.util.Set;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
-
+@Ignore
 public class MultipleFrames extends Hooks{
 	@Test
 	public void handleMultipleFrames(){
