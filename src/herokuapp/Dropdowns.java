@@ -3,7 +3,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
-
+@Ignore
 public class Dropdowns extends Hooks{
 	@Test
 	public void selectItemByText(){

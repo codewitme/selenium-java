@@ -1,9 +1,10 @@
 package herokuapp;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-
+@Ignore
 public class JavascriptAlerts extends Hooks{
 	@Test
 	public void clickForJSPrompt() throws InterruptedException{
