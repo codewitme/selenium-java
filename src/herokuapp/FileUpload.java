@@ -6,10 +6,11 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
 
-
+@Ignore
 public class FileUpload extends Hooks{
 	@Test
 	public void fileUploadTest() throws AWTException, InterruptedException{
